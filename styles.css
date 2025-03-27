@@ -1,4 +1,10 @@
+*,
+*::before,
+*::after {
+  outline: none !important;
+}
 * {
+  outline: 1px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -153,4 +159,20 @@ p {
 .nft-image-wrap:hover ~ .nft-creator .nft-creator-name span {
   color: #00fff6;
   transition: color 0.3s ease;
+}
+
+@media (max-width: 354px) {
+  body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    background: #0c182b;
+    padding: 52px 24px 0px 24px;
+  }
+
+  .nft-image-wrap {
+    position: relative;
+    width: 100%;
+    /* object-fit: cover; */
+    height: auto;
+  }
 }

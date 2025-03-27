@@ -1,15 +1,7 @@
-*,
-*::before,
-*::after {
-  outline: none !important;
-}
-
 * {
-  outline: 1px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* color: #fff; */
 }
 
 body {
@@ -37,7 +29,7 @@ body {
   height: 302px;
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .nft-image-wrap img {
@@ -51,12 +43,12 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 255, 246, 0.5); /* Cyan with 70% opacity */
-  opacity: 0; /* Hidden by default */
+  background-color: rgba(0, 255, 246, 0.5);
+  opacity: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.3s ease; /* smooth transition */
+  transition: opacity 0.3s ease;
 }
 
 .overlay img {
@@ -65,12 +57,12 @@ body {
 }
 
 .nft-image-wrap:hover .overlay {
-  opacity: 1; /* Shows overlay on hover */
+  opacity: 1;
 }
 
 h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 500; /* Medium */
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   color: #fff;
@@ -133,9 +125,9 @@ p {
 
 .nft-creator-avatar {
   display: inline-block;
-  padding: 1px; /* adjust for stroke thickness */
-  background-color: #ffffff; /* white stroke */
-  border-radius: 50%; /* circular stroke shape */
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .nft-creator-avatar img {
@@ -147,7 +139,7 @@ p {
 }
 
 .nft-creator-name {
-  font-weight: 400; /* Medium */
+  font-weight: 400;
   font-size: 16px;
 
   color: #8a9eb9;
@@ -159,6 +151,6 @@ p {
 
 .nft-image-wrap:hover ~ .nft-product-name,
 .nft-image-wrap:hover ~ .nft-creator .nft-creator-name span {
-  color: #00fff6; /* Cyan color on hover */
-  transition: color 0.3s ease; /* Smooth transition */
+  color: #00fff6;
+  transition: color 0.3s ease;
 }

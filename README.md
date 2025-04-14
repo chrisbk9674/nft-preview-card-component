@@ -1,4 +1,4 @@
-# 🌟 NFT Preview Card Component\*\*
+# 🌟 Fully Responsive NFT Preview Card Component\*\*
 
 <p align="center">
   <img src="design/desktop-design.jpg" alt="Blog Preview Card" width="50%">
